@@ -1,9 +1,9 @@
 ---
 title: "questionario-levantamento-requisitos"
 category: "CLIENTES"
-description: "Data: //2025  "
+description: "Data: 28/10/2025 - Atualização com base nas novas informações do cliente"
 created: "2025-10-27"
-updated: "2025-10-27"
+updated: "2025-10-28"
 ---
 
 # QUESTIONÁRIO DE LEVANTAMENTO DE REQUISITOS
@@ -32,19 +32,27 @@ updated: "2025-10-27"
 - [ ] 5-10 anos
 - [ ] Mais de 10 anos
 
-**3. Qual é o segmento principal de atuação?**
-- [ ] Eventos corporativos
-- [ ] Eventos sociais (casamentos, festas)
-- [ ] Eventos esportivos
-- [ ] Eventos culturais
-- [ ] Produção audiovisual
+**3. Quais frentes do Grupo Santana fazem parte da operação a ser atendida pelo sistema?**
+- [ ] Sermedica Emergência Campinas (Ambulâncias e APH)
+- [ ] Serfire Bombeiros Profissionais Civis
+- [ ] Serfire Engenharia (AVCB, CLCB e projetos)
+- [ ] Horto Fire Bombeiros (Escola e treinamentos)
+- [ ] Outras unidades: _________________________________
+
+**4. Quais segmentos principais de atuação precisam ser gerenciados?**
+- [ ] Atendimento a Eventos (corporativos, sociais, esportivos, culturais)
+- [ ] Contratos corporativos contínuos
+- [ ] Serviços para particulares (remoções, atendimentos domiciliares)
+- [ ] Projetos e regularizações contra incêndio
+- [ ] Cursos e certificações profissionais
+- [ ] Locação/manutenção de equipamentos
 - [ ] Outro: _________________________________
 
-**4. Qual é o porte da operação?**
+**5. Qual é o porte da operação?**
 - [ ] Número de funcionários fixos: _______
-- [ ] Número de prestadores/freelancers cadastrados: _______
-- [ ] Número médio de eventos/mês: _______
-- [ ] Ticket médio por evento: R$ _______
+- [ ] Número de prestadores/profissionais cadastrados: _______
+- [ ] Número médio de atendimentos/serviços por mês: _______
+- [ ] Ticket médio por serviço: R$ _______
 
 ---
 
@@ -52,43 +60,45 @@ updated: "2025-10-27"
 
 ### 2.1 Equipe Interna
 
-**5. Quantas pessoas trabalham diretamente na empresa?**
+**6. Quantas pessoas trabalham diretamente na empresa?**
 
 | Função | Quantidade | Nome(s) |
 |--------|-----------|---------|
-| Proprietário/Sócio | | |
-| Gerente/Coordenador | | |
-| Atendimento/Comercial | | |
-| Operacional | | |
-| Administrativo/Financeiro | | |
+| Diretoria / Proprietários | | |
+| Coordenação Operacional (Ambulâncias/Bombeiros) | | |
+| Engenharia / Projetos Técnicos | | |
+| Comercial / Atendimento 24h | | |
+| Administrativo / Financeiro | | |
+| RH / Treinamentos (Escola) | | |
 | Outros | | |
 
-**6. Quem serão os principais usuários do sistema?**
+**7. Quem serão os principais usuários do sistema?**
 - [ ] Nome: _____________ Função: _____________ Perfil de acesso: _____________
 - [ ] Nome: _____________ Função: _____________ Perfil de acesso: _____________
 - [ ] Nome: _____________ Função: _____________ Perfil de acesso: _____________
 
 ### 2.2 Prestadores de Serviço
 
-**7. Quantos prestadores de serviço vocês trabalham regularmente?**
+**8. Quantos prestadores de serviço vocês trabalham regularmente?**
 - [ ] 1-10
 - [ ] 11-30
 - [ ] 31-50
 - [ ] 51-100
 - [ ] Mais de 100
 
-**8. Quais são as principais categorias de prestadores?**
-- [ ] Fotógrafos
-- [ ] Cinegrafistas
-- [ ] Iluminadores
-- [ ] Sonoplastas
-- [ ] Decoradores
-- [ ] Buffet/Gastronomia
-- [ ] Seguranças
-- [ ] Recepcionistas
+**9. Quais são as principais categorias de prestadores e profissionais credenciados?**
+- [ ] Médicos especializados
+- [ ] Enfermeiros
+- [ ] Condutores socorristas
+- [ ] Bombeiros profissionais civis
+- [ ] Guarda-vidas
+- [ ] Brigadistas
+- [ ] Engenheiros
+- [ ] Técnicos especializados (elétrico, hidráulico, sistemas)
+- [ ] Instrutores e facilitadores
 - [ ] Outros: _________________________________
 
-**9. Como vocês gerenciam os prestadores atualmente?**
+**10. Como vocês gerenciam os prestadores atualmente?**
 - [ ] Planilhas Excel
 - [ ] Agenda física
 - [ ] WhatsApp
@@ -101,21 +111,23 @@ updated: "2025-10-27"
 
 ### 3.1 Canais de Atendimento Atuais
 
-**10. Quais canais vocês utilizam para atendimento ao cliente?**
-- [ ] WhatsApp (número: _________________)
-- [ ] Telefone fixo (número: _________________)
+**11. Quais canais vocês utilizam para atendimento ao cliente?**
+- [ ] WhatsApp oficial 24h (número: _________________)
+- [ ] Telefones fixos (números: _________________)
+- [ ] Telefones celulares/plantão (números: _________________)
 - [ ] E-mail (endereço: _________________)
-- [ ] Instagram/Facebook
-- [ ] Site próprio
+- [ ] Formulário do site
+- [ ] Redes sociais (Instagram, Facebook)
 - [ ] Outros: _________________________________
 
-**11. Qual é o canal mais utilizado pelos clientes?**
+**12. Qual é o canal mais utilizado pelos clientes?**
 - [ ] WhatsApp (___%)
-- [ ] Telefone (___%)
+- [ ] Telefones (___%)
 - [ ] E-mail (___%)
 - [ ] Redes sociais (___%)
+- [ ] Site (___%)
 
-**12. Quantos atendimentos vocês recebem por dia em média?**
+**13. Quantos atendimentos vocês recebem por dia em média?**
 - [ ] 1-5
 - [ ] 6-10
 - [ ] 11-20
@@ -124,124 +136,136 @@ updated: "2025-10-27"
 
 ### 3.2 Processo de Atendimento
 
-**13. Descreva o fluxo atual de atendimento ao cliente:**
+**14. Descreva o fluxo atual de atendimento ao cliente (da triagem inicial 24h até a conclusão do chamado):**
 
 Passo 1: _________________________________
 Passo 2: _________________________________
 Passo 3: _________________________________
 Passo 4: _________________________________
 
-**14. Quais são as principais dúvidas/solicitações dos clientes?**
-- [ ] Orçamento
-- [ ] Disponibilidade de data
-- [ ] Portfólio/trabalhos anteriores
+**15. Quais são as principais dúvidas/solicitações dos clientes?**
+- [ ] Solicitação de ambulância ou remoção
+- [ ] Cobertura de evento com bombeiros/brigadistas
+- [ ] Contratação de guarda-vidas
+- [ ] Projetos/regularização (AVCB, CLCB, alvarás)
+- [ ] Locação/manutenção de equipamentos contra incêndio
+- [ ] Cursos/treinamentos e reciclagens
+- [ ] Orçamento e propostas
 - [ ] Formas de pagamento
-- [ ] Detalhes do serviço
 - [ ] Outros: _________________________________
 
-**15. Qual é o tempo médio de resposta atual?**
+**16. Qual é o tempo médio de resposta atual?**
 - [ ] Imediato (minutos)
 - [ ] Até 1 hora
 - [ ] Até 4 horas
 - [ ] Até 24 horas
 - [ ] Mais de 24 horas
 
-**16. Vocês atendem fora do horário comercial?**
-- [ ] Sim, sempre
-- [ ] Sim, às vezes
+**17. Vocês atendem fora do horário comercial?**
+- [ ] Sim, atendimento 24 horas
+- [ ] Sim, conforme escala de plantão
 - [ ] Não
-- [ ] Horário de atendimento: Das ___:___ às ___:___
+- [ ] Horário de atendimento das equipes administrativas: Das ___:___ às ___:___
 
 ### 3.3 Bot de WhatsApp
 
-**17. O que o bot deve fazer no primeiro contato?**
+**18. O que o bot deve fazer no primeiro contato?**
 - [ ] Saudação personalizada
 - [ ] Apresentar menu de opções
 - [ ] Coletar informações básicas
 - [ ] Agendar horário para atendimento humano
 - [ ] Enviar portfólio/catálogo
+- [ ] Direcionar para a unidade correta (Sermedica, Serfire, Engenharia, Escola)
 - [ ] Outros: _________________________________
 
-**18. Quais setores/departamentos devem receber os atendimentos?**
+**19. Quais setores/departamentos devem receber os atendimentos?**
 
 | Setor | Responsável | Tipo de Demanda |
 |-------|------------|-----------------|
+| Central de Atendimento 24h | | Triagem inicial, acionamentos urgentes |
 | Comercial | | Orçamentos, novos clientes |
-| Operacional | | Detalhes de eventos confirmados |
+| Operacional (Ambulâncias/Bombeiros) | | Detalhes de atendimentos e eventos |
+| Engenharia | | Projetos, AVCB/CLCB, alvarás |
+| Escola / Treinamentos | | Cursos, inscrições, reciclagens |
 | Financeiro | | Pagamentos, contratos |
 | Outros | | |
 
-**19. Existem horários específicos para cada setor?**
+**20. Existem horários específicos ou escalas para cada setor?**
 - [ ] Sim (especificar): _________________________________
 - [ ] Não, todos atendem no mesmo horário
+- [ ] Depende da escala de plantão
 
 ---
 
-## 🎯 SEÇÃO 4: GESTÃO DE EVENTOS
+## 🎯 SEÇÃO 4: GESTÃO DE SERVIÇOS E OPERAÇÕES
 
-### 4.1 Tipos de Eventos
+### 4.1 Portfólio de Serviços
 
-**20. Quais tipos de eventos vocês realizam?**
+**21. Quais serviços o Grupo Santana oferece atualmente e qual a demanda média?**
 
-| Tipo de Evento | Frequência (mês) | Duração Média | Ticket Médio |
-|----------------|------------------|---------------|--------------|
-| | | | R$ |
-| | | | R$ |
-| | | | R$ |
+| Serviço | Frequência média (mês) | Duração média | Ticket médio | Observações |
+|---------|------------------------|---------------|--------------|-------------|
+| Ambulâncias (USB/USA) | | | R$ | |
+| Cobertura de eventos com bombeiros/brigadistas | | | R$ | |
+| Guarda-vidas | | | R$ | |
+| Área protegida / postos fixos | | | R$ | |
+| Projetos e regularizações (AVCB, CLCB, alvarás) | | | R$ | |
+| Locação/manutenção de equipamentos | | | R$ | |
+| Cursos e treinamentos (NRs, formação bombeiro civil etc.) | | | R$ | |
+| Outros serviços: __________________ | | | R$ | |
 
-**21. Qual é o ciclo médio de um evento (do primeiro contato até a realização)?**
-- [ ] Menos de 1 semana
-- [ ] 1-2 semanas
-- [ ] 2-4 semanas
-- [ ] 1-3 meses
-- [ ] 3-6 meses
-- [ ] Mais de 6 meses
+**22. Qual é o ciclo médio de cada serviço (do primeiro contato à entrega)?**
+- [ ] Ambulâncias: _________________________________
+- [ ] Bombeiros/Brigadistas: _________________________________
+- [ ] Engenharia/Projetos: _________________________________
+- [ ] Cursos/Treinamentos: _________________________________
+- [ ] Outros: _________________________________
 
-### 4.2 Processo de Gestão
+### 4.2 Processos Operacionais
 
-**22. Como vocês gerenciam os eventos atualmente?**
+**23. Como vocês gerenciam as operações atualmente?**
 - [ ] Planilhas Excel
 - [ ] Agenda física/digital
 - [ ] Sistema específico (qual?): _________________________________
 - [ ] WhatsApp/E-mail
 - [ ] Sem controle formal
-
-**23. Quais informações são essenciais para cada evento?**
-- [ ] Nome do cliente
-- [ ] Tipo de evento
-- [ ] Data e horário
-- [ ] Local
-- [ ] Número de convidados
-- [ ] Serviços contratados
-- [ ] Prestadores alocados
-- [ ] Valor do contrato
-- [ ] Status de pagamento
-- [ ] Observações especiais
 - [ ] Outros: _________________________________
 
-**24. Vocês trabalham com checklist de tarefas para cada evento?**
+**24. Quais informações são essenciais para cada serviço?**
+- [ ] Dados do solicitante/cliente
+- [ ] Tipo de serviço
+- [ ] Data e horário
+- [ ] Local (endereço completo, acesso, mapa)
+- [ ] Região/área de cobertura
+- [ ] Recursos necessários (ambulâncias, equipes, equipamentos)
+- [ ] Profissionais alocados
+- [ ] Documentações exigidas (AVCB, contratos, certificados)
+- [ ] Status de escala/plantão
+- [ ] Valor do contrato
+- [ ] Status de faturamento/pagamento
+- [ ] Observações críticas (risco, logística, cobertura)
+- [ ] Outros: _________________________________
+
+**25. Vocês trabalham com checklists operacionais para cada serviço?**
 - [ ] Sim (pode compartilhar um exemplo?)
 - [ ] Não, mas gostaríamos de implementar
 - [ ] Não é necessário
 
-**25. Quais são as principais etapas de um evento?**
+**26. Quais são as principais etapas de execução para cada serviço?**
 
-Exemplo:
-1. Primeiro contato
-2. Reunião de briefing
-3. Elaboração de proposta
-4. Aprovação e contrato
-5. Planejamento detalhado
-6. Alocação de equipe
-7. Execução
-8. Pós-evento/Feedback
+Exemplo (Ambulâncias):
+1. Recebimento da solicitação
+2. Triagem e classificação
+3. Acionamento da equipe
+4. Deslocamento / Atendimento
+5. Encerramento e relatório
 
-Suas etapas:
-1. _________________________________
-2. _________________________________
-3. _________________________________
-4. _________________________________
-5. _________________________________
+Descreva as etapas por serviço:
+- Ambulâncias: _________________________________
+- Bombeiros/Brigadistas: _________________________________
+- Engenharia/Projetos: _________________________________
+- Cursos/Treinamentos: _________________________________
+- Outros: _________________________________
 
 ---
 
@@ -249,19 +273,20 @@ Suas etapas:
 
 ### 5.1 Cadastro e Organização
 
-**26. Quais informações vocês precisam manter sobre cada prestador?**
+**27. Quais informações vocês precisam manter sobre cada prestador/profissional?**
 - [ ] Dados pessoais (nome, CPF, contato)
 - [ ] Especialidade/função
 - [ ] Experiência/portfólio
 - [ ] Disponibilidade
 - [ ] Valor/hora ou por evento
 - [ ] Documentação (RG, CPF, comprovantes)
+- [ ] Certificações e reciclagens (NRs, cursos)
 - [ ] Avaliações de desempenho
 - [ ] Histórico de trabalhos
 - [ ] Observações/restrições
 - [ ] Outros: _________________________________
 
-**27. Como vocês verificam a disponibilidade dos prestadores?**
+**28. Como vocês verificam a disponibilidade dos prestadores?**
 - [ ] Ligação telefônica
 - [ ] WhatsApp individual
 - [ ] Grupo de WhatsApp
@@ -269,7 +294,7 @@ Suas etapas:
 - [ ] Sistema específico
 - [ ] Outros: _________________________________
 
-**28. Vocês trabalham com contratos formais com os prestadores?**
+**29. Vocês trabalham com contratos formais com os prestadores?**
 - [ ] Sim, sempre
 - [ ] Sim, dependendo do valor
 - [ ] Não, apenas acordos verbais
@@ -277,15 +302,16 @@ Suas etapas:
 
 ### 5.2 Comunicação com Prestadores
 
-**29. Como vocês comunicam os prestadores sobre novos eventos?**
+**30. Como vocês comunicam os prestadores sobre novos serviços/escalas?**
 - [ ] WhatsApp individual
 - [ ] Grupo de WhatsApp
 - [ ] Ligação telefônica
 - [ ] E-mail
 - [ ] SMS
+- [ ] Aplicativo/Sistema próprio
 - [ ] Outros: _________________________________
 
-**30. Com quanto tempo de antecedência vocês avisam os prestadores?**
+**31. Com quanto tempo de antecedência vocês avisam os prestadores?**
 - [ ] No mesmo dia
 - [ ] 1 dia antes
 - [ ] 2-3 dias antes
@@ -293,8 +319,8 @@ Suas etapas:
 - [ ] Mais de 1 semana
 - [ ] Varia conforme o evento
 
-**31. Quais informações devem constar na notificação?**
-- [ ] Nome do evento
+**32. Quais informações devem constar na notificação?**
+- [ ] Nome do serviço/operação
 - [ ] Data e horário
 - [ ] Local (endereço completo)
 - [ ] Função/atividade a realizar
@@ -305,13 +331,13 @@ Suas etapas:
 - [ ] Observações especiais
 - [ ] Outros: _________________________________
 
-**32. Vocês precisam de confirmação de presença?**
+**33. Vocês precisam de confirmação de presença?**
 - [ ] Sim, sempre
 - [ ] Sim, apenas para eventos grandes
 - [ ] Não é necessário
 - [ ] Prazo para confirmação: _______ horas/dias antes
 
-**33. O que acontece se um prestador não confirmar presença?**
+**34. O que acontece se um prestador não confirmar presença?**
 - [ ] Ligamos para confirmar
 - [ ] Buscamos substituto imediatamente
 - [ ] Aguardamos até próximo ao evento
@@ -323,19 +349,20 @@ Suas etapas:
 
 ### 6.1 Tipos de Notificações
 
-**34. Quais tipos de notificações automáticas vocês precisam?**
+**35. Quais tipos de notificações automáticas vocês precisam?**
 
 | Tipo de Notificação | Quando Enviar | Para Quem | Canal Preferido |
 |---------------------|---------------|-----------|-----------------|
-| Confirmação de evento | Logo após fechamento | Cliente | WhatsApp/E-mail |
-| Lembrete pré-evento | ___ dias antes | Prestadores | WhatsApp |
+| Acionamento de ambulância | Imediato após triagem | Equipe de APH | WhatsApp/Telefone |
+| Confirmação de escala de bombeiros/brigadistas | ___ horas/dias antes | Equipe operacional | WhatsApp |
+| Atualização de projeto/AVCB | Ao mudar de status | Cliente / Engenharia | E-mail / Sistema |
+| Lembrete de curso/treinamento | ___ dias antes | Alunos / Instrutores | WhatsApp/E-mail |
 | Lembrete pré-evento | ___ dias antes | Cliente | WhatsApp/E-mail |
-| Alterações de última hora | Imediato | Todos envolvidos | WhatsApp |
-| Feedback pós-evento | ___ dias depois | Cliente | WhatsApp/E-mail |
-| Pagamento de prestador | Após evento | Prestador | WhatsApp |
+| Feedback pós-serviço | ___ dias depois | Cliente | WhatsApp/E-mail |
+| Pagamento de prestador | Após serviço | Prestador | WhatsApp |
 | Outros | | | |
 
-**35. Vocês querem múltiplos lembretes para o mesmo evento?**
+**36. Vocês querem múltiplos lembretes para o mesmo serviço/evento?**
 - [ ] Sim
   - [ ] 7 dias antes
   - [ ] 3 dias antes
@@ -343,19 +370,19 @@ Suas etapas:
   - [ ] No dia (quantas horas antes? ___)
 - [ ] Não, apenas um lembrete
 
-**36. As notificações devem ter confirmação de leitura?**
+**37. As notificações devem ter confirmação de leitura?**
 - [ ] Sim, é essencial
 - [ ] Sim, mas não obrigatório
 - [ ] Não é necessário
 
 ### 6.2 Templates de Mensagens
 
-**37. Vocês já têm templates de mensagens que gostariam de usar?**
+**38. Vocês já têm templates de mensagens que gostariam de usar?**
 - [ ] Sim (pode compartilhar?)
 - [ ] Não, precisamos criar
 - [ ] Temos alguns, mas precisam ser melhorados
 
-**38. As mensagens devem ser personalizáveis?**
+**39. As mensagens devem ser personalizáveis?**
 - [ ] Sim, para cada tipo de evento
 - [ ] Sim, para cada cliente
 - [ ] Não, mensagens padrão são suficientes
@@ -366,35 +393,36 @@ Suas etapas:
 
 ### 7.1 Dados Existentes
 
-**39. Vocês têm dados de clientes que precisam ser migrados?**
+**40. Vocês têm dados de clientes que precisam ser migrados?**
 - [ ] Sim
   - Formato: [ ] Excel [ ] Google Sheets [ ] Outro: _______
   - Quantidade aproximada: _______
   - Campos disponíveis: _________________________________
 - [ ] Não, começaremos do zero
 
-**40. Vocês têm histórico de eventos anteriores?**
+**41. Vocês têm histórico de eventos/atendimentos anteriores?**
 - [ ] Sim
   - Formato: _________________________________
   - Período: De ___/___/___ até ___/___/___
   - Quantidade: _______
 - [ ] Não
 
-**41. Vocês têm cadastro de prestadores?**
+**42. Vocês têm cadastro de prestadores/profissionais?**
 - [ ] Sim
   - Formato: _________________________________
   - Quantidade: _______
+  - Dados armazenados (ex.: certificados, NRs, validade): _________________________________
 - [ ] Não
 
 ### 7.2 Integrações
 
-**42. Vocês utilizam outros sistemas que precisam se integrar?**
+**43. Vocês utilizam outros sistemas que precisam se integrar?**
 - [ ] Sistema financeiro (qual?): _________________________________
 - [ ] Sistema de pagamentos (qual?): _________________________________
 - [ ] Plataforma de e-mail marketing (qual?): _________________________________
 - [ ] Outros: _________________________________
 
-**43. Vocês têm site próprio?**
+**44. Vocês têm site próprio?**
 - [ ] Sim (URL: _________________)
   - [ ] Gostaríamos de integrar com o CRM
   - [ ] Não precisa integrar
@@ -407,28 +435,31 @@ Suas etapas:
 
 ### 8.1 Necessidades de Relatórios
 
-**44. Quais relatórios vocês precisam?**
-- [ ] Eventos por período
+**45. Quais relatórios vocês precisam?**
+- [ ] Atendimentos/serviços por período
 - [ ] Faturamento por período
-- [ ] Performance de prestadores
-- [ ] Taxa de conversão de orçamentos
+- [ ] Performance de profissionais e equipes
+- [ ] Taxa de conversão de orçamentos/propostas
 - [ ] Origem dos clientes
-- [ ] Eventos por tipo
-- [ ] Prestadores mais utilizados
+- [ ] Serviços por tipo (ambulância, bombeiro, engenharia, cursos)
+- [ ] Utilização de equipamentos e estoque
+- [ ] Prestadores mais acionados
 - [ ] Tempo médio de resposta
 - [ ] Satisfação do cliente
 - [ ] Outros: _________________________________
 
-**45. Com que frequência vocês precisam desses relatórios?**
+**46. Com que frequência vocês precisam desses relatórios?**
 - [ ] Diário
 - [ ] Semanal
 - [ ] Mensal
 - [ ] Trimestral
 - [ ] Sob demanda
 
-**46. Quem precisa ter acesso aos relatórios?**
-- [ ] Proprietário/Sócio
-- [ ] Gerente/Coordenador
+**47. Quem precisa ter acesso aos relatórios?**
+- [ ] Diretoria / Sócios
+- [ ] Coordenação Operacional (Ambulâncias/Bombeiros)
+- [ ] Engenharia / Projetos
+- [ ] Escola / Treinamentos
 - [ ] Financeiro
 - [ ] Comercial
 - [ ] Todos
@@ -440,7 +471,7 @@ Suas etapas:
 
 ### 9.1 Identidade Visual
 
-**47. Vocês têm identidade visual definida?**
+**48. Vocês têm identidade visual definida?**
 - [ ] Sim
   - Logo: [ ] Sim [ ] Não
   - Cores principais: _________________________________
@@ -448,14 +479,14 @@ Suas etapas:
 - [ ] Não, mas gostaríamos de criar
 - [ ] Não é necessário
 
-**48. O sistema deve usar as cores da empresa?**
+**49. O sistema deve usar as cores da empresa?**
 - [ ] Sim, é importante
 - [ ] Seria interessante, mas não é prioridade
 - [ ] Não é necessário
 
 ### 9.2 Nomenclaturas
 
-**49. Vocês têm termos específicos que usam internamente?**
+**50. Vocês têm termos específicos que usam internamente?**
 
 Exemplo: "Projeto" vs "Evento", "Cliente" vs "Contratante", etc.
 
@@ -470,39 +501,43 @@ Exemplo: "Projeto" vs "Evento", "Cliente" vs "Contratante", etc.
 
 ### 10.1 Funcionalidades Prioritárias
 
-**50. Ordene as funcionalidades por prioridade (1 = mais importante):**
+**51. Ordene as funcionalidades por prioridade (1 = mais importante):**
 
-- [ ] ___ Bot de WhatsApp para atendimento
-- [ ] ___ CRM para gestão de clientes
-- [ ] ___ Gestão de eventos/projetos
-- [ ] ___ Cadastro de prestadores
-- [ ] ___ Sistema de notificações
+- [ ] ___ Bot de WhatsApp para atendimento 24h
+- [ ] ___ CRM para gestão de clientes e contratos
+- [ ] ___ Gestão de serviços/operações (ambulâncias, bombeiros, engenharia)
+- [ ] ___ Controle de escalas e plantões
+- [ ] ___ Cadastro de prestadores/profissionais
+- [ ] ___ Sistema de notificações automáticas
+- [ ] ___ Gestão de equipamentos e estoque
+- [ ] ___ Gestão de cursos/certificações
 - [ ] ___ Relatórios e dashboards
-- [ ] ___ Controle financeiro
-- [ ] ___ Agenda/calendário
+- [ ] ___ Controle financeiro/faturamento
+- [ ] ___ Agenda/calendário integrado
 
-**51. Existe alguma funcionalidade que não foi mencionada mas é essencial?**
+**52. Existe alguma funcionalidade que não foi mencionada mas é essencial?**
 _________________________________
 _________________________________
 _________________________________
 
 ### 10.2 Expectativas
 
-**52. Qual é o principal problema que vocês esperam resolver com o sistema?**
+**53. Qual é o principal problema que vocês esperam resolver com o sistema?**
 _________________________________
 _________________________________
 _________________________________
 
-**53. Como vocês medirão o sucesso da implementação?**
+**54. Como vocês medirão o sucesso da implementação?**
 - [ ] Redução de tempo em tarefas administrativas
-- [ ] Aumento de eventos fechados
+- [ ] Cumprimento dos SLAs/tempo de resposta 24h
+- [ ] Aumento de contratos fechados
 - [ ] Melhor organização interna
-- [ ] Redução de erros/falhas
+- [ ] Redução de erros/falhas operacionais
 - [ ] Satisfação da equipe
 - [ ] Satisfação dos clientes
 - [ ] Outros: _________________________________
 
-**54. Qual é a sua expectativa de ROI (retorno sobre investimento)?**
+**55. Qual é a sua expectativa de ROI (retorno sobre investimento)?**
 - [ ] Até 6 meses
 - [ ] 6-12 meses
 - [ ] 1-2 anos
@@ -514,26 +549,26 @@ _________________________________
 
 ### 11.1 Necessidades de Treinamento
 
-**55. Qual é o nível de familiaridade da equipe com sistemas similares?**
+**56. Qual é o nível de familiaridade da equipe com sistemas similares?**
 - [ ] Alta - já usamos CRM/sistemas de gestão
 - [ ] Média - usamos alguns sistemas básicos
 - [ ] Baixa - pouca experiência com sistemas
 - [ ] Nenhuma - primeira vez
 
-**56. Quantas pessoas precisarão de treinamento?**
+**57. Quantas pessoas precisarão de treinamento?**
 - [ ] 1-3 pessoas
 - [ ] 4-6 pessoas
 - [ ] 7-10 pessoas
 - [ ] Mais de 10 pessoas
 
-**57. Qual formato de treinamento preferem?**
+**58. Qual formato de treinamento preferem?**
 - [ ] Presencial
 - [ ] Online (videoconferência)
 - [ ] Vídeos gravados
 - [ ] Documentação escrita
 - [ ] Combinação de formatos
 
-**58. Vocês preferem treinamento em grupo ou individual?**
+**59. Vocês preferem treinamento em grupo ou individual?**
 - [ ] Grupo (todos juntos)
 - [ ] Por função/departamento
 - [ ] Individual
@@ -541,14 +576,14 @@ _________________________________
 
 ### 11.2 Suporte Contínuo
 
-**59. Qual é o horário ideal para suporte técnico?**
+**60. Qual é o horário ideal para suporte técnico?**
 - [ ] Horário comercial (8h-18h)
 - [ ] Horário estendido (8h-20h)
 - [ ] 24/7
 - [ ] Apenas dias úteis
 - [ ] Incluindo finais de semana
 
-**60. Qual canal preferem para suporte?**
+**61. Qual canal preferem para suporte?**
 - [ ] WhatsApp
 - [ ] E-mail
 - [ ] Telefone
@@ -561,34 +596,34 @@ _________________________________
 
 ### 12.1 Prazos
 
-**61. Existe alguma data limite para o sistema estar funcionando?**
+**62. Existe alguma data limite para o sistema estar funcionando?**
 - [ ] Sim: ___/___/___
   - Motivo: _________________________________
 - [ ] Não, mas quanto antes melhor
 - [ ] Podemos seguir o cronograma proposto
 
-**62. Existe algum período que devemos evitar para implementação?**
+**63. Existe algum período que devemos evitar para implementação?**
 - [ ] Sim: De ___/___/___ até ___/___/___
   - Motivo: _________________________________
 - [ ] Não
 
 ### 12.2 Disponibilidade para o Projeto
 
-**63. Quem será o ponto focal do projeto pelo lado do cliente?**
+**64. Quem será o ponto focal do projeto pelo lado do cliente?**
 - Nome: _________________________________
 - Cargo: _________________________________
 - Telefone: _________________________________
 - E-mail: _________________________________
 - Disponibilidade: _________________________________
 
-**64. Com que frequência vocês podem participar de reuniões de acompanhamento?**
+**65. Com que frequência vocês podem participar de reuniões de acompanhamento?**
 - [ ] Diariamente
 - [ ] 2-3 vezes por semana
 - [ ] Semanalmente
 - [ ] Quinzenalmente
 - [ ] Conforme necessário
 
-**65. Qual é o melhor horário para reuniões?**
+**66. Qual é o melhor horário para reuniões?**
 - [ ] Manhã (8h-12h)
 - [ ] Tarde (13h-17h)
 - [ ] Noite (18h-20h)
@@ -598,23 +633,23 @@ _________________________________
 
 ## 💡 SEÇÃO 13: OBSERVAÇÕES ADICIONAIS
 
-**66. Existe algo mais que não foi perguntado mas é importante para o projeto?**
+**67. Existe algo mais que não foi perguntado mas é importante para o projeto?**
 _________________________________
 _________________________________
 _________________________________
 _________________________________
 
-**67. Vocês têm alguma preocupação específica sobre a implementação?**
+**68. Vocês têm alguma preocupação específica sobre a implementação?**
 _________________________________
 _________________________________
 _________________________________
 
-**68. Existe alguma funcionalidade que vocês gostariam no futuro (fase 2)?**
+**69. Existe alguma funcionalidade que vocês gostariam no futuro (fase 2)?**
 _________________________________
 _________________________________
 _________________________________
 
-**69. Vocês têm referências de sistemas que admiram ou gostariam de ter algo similar?**
+**70. Vocês têm referências de sistemas que admiram ou gostariam de ter algo similar?**
 _________________________________
 _________________________________
 _________________________________
@@ -623,11 +658,11 @@ _________________________________
 
 ## ✅ VALIDAÇÃO E PRÓXIMOS PASSOS
 
-**70. Após revisar este questionário, há algo que precisa ser ajustado no escopo?**
+**71. Após revisar este questionário, há algo que precisa ser ajustado no escopo?**
 - [ ] Não, está tudo alinhado
 - [ ] Sim, precisamos discutir: _________________________________
 
-**71. Vocês estão prontos para iniciar o projeto?**
+**72. Vocês estão prontos para iniciar o projeto?**
 - [ ] Sim, podemos começar imediatamente
 - [ ] Sim, mas precisamos de ___ dias para organizar
 - [ ] Precisamos de mais informações sobre: _________________________________
@@ -654,11 +689,13 @@ Assinatura: ____________________________
 
 Por favor, se possível, compartilhar:
 
-- [ ] Planilhas atuais de controle (clientes, eventos, prestadores)
+- [ ] Planilhas atuais de controle (clientes, atendimentos, prestadores)
 - [ ] Exemplos de mensagens/templates que já utilizam
 - [ ] Fluxogramas ou processos documentados
 - [ ] Contratos ou documentos padrão
 - [ ] Logo e materiais de identidade visual
+- [ ] Escalas de plantão e roteiros operacionais
+- [ ] Certificados e comprovantes de cursos/NRs
 - [ ] Prints de telas de sistemas que já utilizam
 - [ ] Outros documentos relevantes
 
@@ -694,6 +731,6 @@ Por favor, se possível, compartilhar:
 
 ---
 
-**Documento preparado por:** Johnny / Tarcísio (Jidu Marketing Digital)  
-**Versão:** 1.0  
-**Data:** 22/09/2025
+**Documento preparado por:** Johnny / Tarcísio (Jidu Marketing Digital)
+**Versão:** 1.1
+**Data:** 28/10/2025
